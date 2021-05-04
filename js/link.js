@@ -1,8 +1,8 @@
-link = {
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>link = {
     init: function () {
         var that = this;
-        //这里设置的是刚才的 linklist.json 文件路径
-        $.getJSON("/source/links/linklist.json",
+        //linklist.json 文件路径
+        $.getJSON("/links/linklist.json",
 
             function (data) {
                 that.render(data);

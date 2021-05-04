@@ -83,6 +83,7 @@
   </style>
 </noscript>
 
+
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -132,7 +133,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">1</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -142,7 +143,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">1</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-links">
@@ -255,15 +256,15 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
-
-            <ul class="sidebar-nav motion-element">
-              <li class="sidebar-nav-toc">
-                文章目录
+    <ul class="sidebar-nav motion-element">
+         <li class="sidebar-nav-toc">
+             文章目录
               </li>
               <li class="sidebar-nav-overview">
                 站点概览
               </li>
-            </ul>
+    </ul>
+  
 
             <!--noindex-->
             <div class="post-toc-wrap sidebar-panel">
@@ -273,7 +274,7 @@
               <div class="site-overview-wrap sidebar-panel">
                 <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="CC"
-      src="https://cdn.jsdelivr.net/gh/ccpro1/pictures/avatar.png">
+      src="https://cdn.jsdelivr.net/gh/ccpro1/pictures/avatar.jpg">
   <p class="site-author-name" itemprop="name">CC</p>
   <div class="site-description" itemprop="description">用心生活 用心记录</div>
 </div>
@@ -282,7 +283,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -295,7 +296,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -311,9 +312,32 @@
 
 
 
-              </div>
+                
+              </div>  
               
-      </div>
+              </div>
+              <div>
+               <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <!-- require MetingJS-->
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script> 
+	<!--网易云-->   
+    <div class="aplayer" 
+      data-id="3134912823" 
+      data-server="netease" 
+      data-type="playlist" 
+      data-fixed="false" 
+      data-autoplay="false" 
+      data-list-folded="true"
+      data-mutex="true"
+      data-order="random" 
+      data-loop="all"
+      data-volume="0.4" 
+      data-theme="#FADFA3" 
+      date-preload="auto" > 
+    </div></div>
+
+ 
   </aside>
   <div id="sidebar-dimmer">
   </div>
@@ -340,7 +364,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">0k</span>
+    <span title="站点总字数">1k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
@@ -433,6 +457,8 @@
     POWERMODE.shake = false;
     document.body.addEventListener('input', POWERMODE);
   </script>
+
+
 
 
 
