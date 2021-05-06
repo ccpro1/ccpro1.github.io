@@ -1,8 +1,8 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>link = {
+link = {
     init: function () {
         var that = this;
         //linklist.json 文件路径
-        $.getJSON("/links/linklist.json",
+        $.getJSON("/linklist.json",
 
             function (data) {
                 that.render(data);
